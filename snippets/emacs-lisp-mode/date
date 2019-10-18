@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: date
+# key: da
+# --
+
+;;; `(string-trim-right (shell-command-to-string "date-utc"))` ;;; 
+$0
