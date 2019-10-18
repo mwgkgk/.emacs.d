@@ -145,11 +145,20 @@
   (define-key evil-window-map (kbd "w") 'evil-write)
   (define-key evil-window-map (kbd "Q") 'evil-quit-all)
   (define-key evil-window-map (kbd "N") 'evil-window-vnew)
+  (define-key evil-window-map (kbd "a") 'evil-switch-to-windows-last-buffer)
 
   ;; Comfy eval
+
+  (defun comfy-eval-x ()
+    (interactive)
+    (backward-up-list)
+    (evil-jump-item)
+    (call-interactively 'eval-last-sexp))
+
   (add-hook 'emacs-lisp-mode-hook
             '(lambda ()
-               (define-key evil-normal-state-map (kbd "X") 'eval-defun)))
+	       (define-key evil-normal-state-map (kbd "X") 'comfy-eval-x)
+               (define-key evil-normal-state-map (kbd ";x") 'eval-defun)))
 
   ;; TODO normal-mode s is non-prefix
   ;; (define-key evil-normal-state-map (kbd "s SPC") 'switch-to-buffer)
