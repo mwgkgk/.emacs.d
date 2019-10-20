@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: key
+# key: key
+# --
+
+(define-key ${3:evil-normal-state-map} (kbd "${1:X}") '${2:comfy-eval-x})
