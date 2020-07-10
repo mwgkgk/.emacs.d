@@ -216,6 +216,14 @@
 
 (use-package cider)
 
+;; ------
+;; Factor
+;; ------
+
+(use-package fuel
+  :init
+  (setq fuel-factor-root-dir "/usr/lib/factor"))
+
 ;;; --------
 ;;; Behavior
 ;;; --------
