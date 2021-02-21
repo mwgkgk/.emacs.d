@@ -161,7 +161,13 @@
   ;; TODO normal-mode s is non-prefix
   ;; (define-key evil-normal-state-map (kbd "s SPC") 'switch-to-buffer)
 
-  (define-key evil-normal-state-map (kbd "q") 'evil-jump-item))
+  (define-key evil-normal-state-map (kbd "q") 'evil-jump-item)
+
+  ;; ---------------
+  ;; File bookmarks
+  ;; ---------------
+
+  (load "~/.emacs.d/layers/file-bookmarks.el"))
 
 ;;; --------
 ;;; Snippets
