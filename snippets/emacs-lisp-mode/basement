@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: basement
+# key: ba
+# --
+(if nil
+    ${VISUAL}$0
+    ) ; `(string-trim-right (shell-command-to-string "date-jiv"))`
