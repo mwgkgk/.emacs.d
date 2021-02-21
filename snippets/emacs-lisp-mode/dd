@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: date-inline
+# key: dd
+# --
+
+`(string-trim-right (shell-command-to-string "date-jiv"))`$0
