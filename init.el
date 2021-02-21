@@ -162,6 +162,8 @@
   ;; (define-key evil-normal-state-map (kbd "s SPC") 'switch-to-buffer)
 
   (define-key evil-normal-state-map (kbd "q") 'evil-jump-item)
+  ;; Emacs'es join-line is joining "Up" when it feels like it.
+  (define-key evil-normal-state-map (kbd "K") 'join-line)
 
   ;; ---------------
   ;; File bookmarks
