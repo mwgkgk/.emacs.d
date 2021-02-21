@@ -216,6 +216,8 @@
 
 (use-package bug-hunter)
 
+;; TODO apropox-follow on word under cursor
+
 ;; -------
 ;; Clojure
 ;; -------
