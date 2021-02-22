@@ -202,6 +202,12 @@
   :init
   (setq fuel-factor-root-dir "/usr/lib/factor"))
 
+;; ------
+;; Forth
+;; ------
+
+(use-package forth-mode)
+
 ;;; --------
 ;;; Behavior
 ;;; --------
