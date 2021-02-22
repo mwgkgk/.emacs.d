@@ -129,7 +129,13 @@
   ;; File bookmarks
   ;; ---------------
 
-  (load "~/.emacs.d/conf/evil/file-bookmarks.el"))
+  (load "~/.emacs.d/conf/evil/file-bookmarks.el")
+
+  ;; ----------------
+  ;; Plugin mappings
+  ;; ----------------
+
+  (load "~/.emacs.d/conf/selectrum/mappings.el"))
 
 ;;; --------
 ;;; Snippets
@@ -147,7 +153,7 @@
 
 (use-package paredit
   :init
-
+  
   (use-package paredit-everywhere
     :init
     (add-hook 'prog-mode-hook 'paredit-everywhere-mode)))
