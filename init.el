@@ -1,3 +1,9 @@
+;;; -----
+;;; Debug
+;;; -----
+
+(setq debug-on-error t)
+
 ;;; ---------
 ;;; Interface
 ;;; ---------
@@ -10,7 +16,7 @@
 (tool-bar-mode -1)
 
 ;; (set-face-attribute 'default nil :font "Iosevka SS04" :height 79)
-(set-face-attribute 'default nil :font "Hack" :height 77)
+;; (set-face-attribute 'default nil :font "Hack" :height 77)
 ;; (set-face-attribute 'default nil :font "Anka/Coder" :height 89)
 ;; (set-face-attribute 'default nil :font "scientifica")
 
@@ -107,7 +113,6 @@
     (global-evil-commentary-mode 1))
 
   :config
-
   (setq evil-vsplit-window-right t)
 
   (load "~/.emacs.d/conf/evil/mappings-generic.el")
