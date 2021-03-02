@@ -1,4 +1,4 @@
-(setq current-theme 'tango-dark)
+(setq current-theme 'dichromacy)
 
 (load-theme current-theme t)
 
