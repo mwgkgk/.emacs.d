@@ -17,8 +17,9 @@
 
 ;; (set-face-attribute 'default nil :font "Iosevka SS04" :height 79)
 ;; (set-face-attribute 'default nil :font "Hack" :height 77)
-;; (set-face-attribute 'default nil :font "Anka/Coder" :height 89)
+(set-face-attribute 'default nil :font "Anka/Coder" :height 150)
 ;; (set-face-attribute 'default nil :font "scientifica")
+;; (set-face-attribute 'default nil :font "Monospace" :height 150)
 
 ;; TODO add nlinum-relative and hook to evil mode switch
 ;; (global-display-line-numbers-mode)
@@ -192,6 +193,7 @@
 (use-package bug-hunter)
 
 ;; TODO apropox-follow on word under cursor
+
 
 ;; -------
 ;; Clojure
