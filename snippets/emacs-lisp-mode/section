@@ -1,7 +1,8 @@
 # -*- mode: snippet -*-
 # name: section
 # key: |
+# Ugh so yeah this isn't working.
 # --
-;;;
+;;; `(length (yas-field-value 1))`
 ;;; ${1:Docs}
 ;;;$0
