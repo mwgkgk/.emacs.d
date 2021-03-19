@@ -18,7 +18,7 @@
 ;; (set-face-attribute 'default nil :font "Iosevka SS04" :height 79)
 ;; (set-face-attribute 'default nil :font "Hack" :height 77)
 ;; (set-face-attribute 'default nil :font "Anka/Coder" :height 150)
-(set-face-attribute 'default nil :font "Anka/Coder Narrow" :height 122)
+(set-face-attribute 'default nil :font "Anka/Coder Narrow" :height 102)
 ;; (set-face-attribute 'default nil :font "scientifica")
 ;; (set-face-attribute 'default nil :font "Monospace" :height 150)
 
@@ -215,6 +215,18 @@
 ;; ------
 
 (use-package forth-mode)
+
+;; ----
+;; Lua
+;; ----
+
+(use-package lua-mode)
+
+;; -------
+;; Colors
+;; -------
+
+; (use-package palette)
 
 ;;; --------
 ;;; Behavior
