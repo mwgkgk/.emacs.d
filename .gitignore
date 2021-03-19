@@ -9,3 +9,6 @@
 /#init.el#
 
 /url/cache/
+
+/server/
+/transient/
