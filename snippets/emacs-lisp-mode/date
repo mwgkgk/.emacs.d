@@ -3,5 +3,5 @@
 # key: da
 # --
 
-;;; `(string-trim-right (shell-command-to-string "date-utc"))` ;;; 
+;;; `(format-time-string "%a %b %e %T %Z %Y")` ;;; 
 $0

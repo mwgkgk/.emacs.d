@@ -4,6 +4,12 @@
 
 (setq debug-on-error t)
 
+;;; ----
+;;; Date
+;;; ----
+
+(setenv "TZ" "UTC0")
+
 ;;; ---------
 ;;; Interface
 ;;; ---------
@@ -171,6 +177,7 @@
 ;; (straight-use-package 'lispyville)
 ;; (add-hook 'lispy-mode-hook #'lispyville-mode)
 
+
 ;;; ---------
 ;;; Languages
 ;;; ---------
@@ -250,6 +257,12 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 (global-set-key "\C-x\ \C-r" 'recentf-open-files)
+
+;; C-w hotkeys
+; (load "~/.emacs.d/layers/c-w.el")
+
+;; Space hotkeys
+(load "~/.emacs.d/layers/space.el")
 
 ;;; ------
 ;;; Server
