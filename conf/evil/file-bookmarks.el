@@ -10,6 +10,13 @@
     (interactive)
     (find-file "~/.emacs.d/layer/packages.el")))
 
+;;; Sat Apr  3 22:27:03 UTC 2021 ;;; 
+
+(define-key evil-normal-state-map (kbd ";cve")
+  (lambda ()
+    (interactive)
+    (find-file "~/.emacs.d/layer/evil.el")))
+
 ;;; Mon Feb 22 00:35:19 UTC 2021 ;;; 
 
 (define-key evil-normal-state-map (kbd ";cvk")
