@@ -24,8 +24,7 @@
     (interactive)
     (find-file "~/.emacs.d/conf/evil/mappings-generic.el")))
 
-
-(define-key evil-normal-state-map (kbd ";cfb")
+(define-key evil-normal-state-map (kbd ";cvb")
   (lambda ()
     (interactive)
     (find-file "~/.emacs.d/conf/evil/file-bookmarks.el")))
