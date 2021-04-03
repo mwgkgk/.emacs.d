@@ -52,7 +52,7 @@
   ;; Toggle theme
   ;; -------------
 
-  (load "~/.emacs.d/layer/toggle-theme.el")
+  ; (load "~/.emacs.d/layer/toggle-theme.el")
 
   ;; ----------------
   ;; Plugin mappings
