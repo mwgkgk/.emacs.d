@@ -3,6 +3,13 @@
 (define-key evil-normal-state-map (kbd ";cvh")
   (lambda () (interactive) (find-file "~/.emacs.d/init.el")))
 
+;;; Sat Apr  3 09:37:31 UTC 2021 ;;; 
+
+(define-key evil-normal-state-map (kbd ";cvp")
+  (lambda ()
+    (interactive)
+    (find-file "~/.emacs.d/layer/packages.el")))
+
 ;;; Mon Feb 22 00:35:19 UTC 2021 ;;; 
 
 (define-key evil-normal-state-map (kbd ";cvk")
@@ -11,7 +18,7 @@
     (find-file "~/.emacs.d/conf/evil/mappings-generic.el")))
 
 
-(define-key evil-normal-state-map (kbd ";cvfb")
+(define-key evil-normal-state-map (kbd ";cfb")
   (lambda ()
     (interactive)
     (find-file "~/.emacs.d/conf/evil/file-bookmarks.el")))
@@ -22,3 +29,10 @@
   (lambda ()
     (interactive)
     (find-file "~/.emacs.d/layer/lang/elisp.el")))
+
+;;; Sat Apr  3 09:26:47 UTC 2021 ;;; 
+
+(define-key evil-normal-state-map (kbd ";cvc")
+  (lambda ()
+    (interactive)
+    (find-file "~/.emacs.d/layer/colors.el")))
