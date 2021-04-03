@@ -19,7 +19,7 @@
 ;; Git
 ;; ----
 
-(load "~/.emacs.d/layer/git-gutter.el")
+(load "~/.emacs.d/layer/git.el")
 
 ;; -------
 ;; S-exps

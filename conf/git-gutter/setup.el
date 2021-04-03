@@ -1,6 +1,6 @@
 (use-package git-gutter
-  :config
-  ; (global-git-gutter-mode t)
+  :init
+  (global-git-gutter-mode t)
   (define-key evil-normal-state-map (kbd ";hp") 'git-gutter:stage-hunk)
   (define-key evil-normal-state-map (kbd ";hu") 'git-gutter:revert-hunk)
   (define-key evil-normal-state-map (kbd ";h SPC") 'git-gutter:mark-hunk)
