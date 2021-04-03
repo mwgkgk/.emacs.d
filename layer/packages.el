@@ -42,4 +42,4 @@
 ;; Colors
 ;; -------
 
-; (use-package palette)
+(load "~/.emacs.d/layer/colors.el")
