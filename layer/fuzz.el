@@ -2,5 +2,4 @@
 
 (use-package fzf
   :init
-  ;; TODO move this to prefix s
-  (define-key evil-normal-state-map (kbd "SPC E") 'fzf))
+  (define-key evil-normal-state-map (kbd "se") 'fzf))
