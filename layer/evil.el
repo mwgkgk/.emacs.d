@@ -3,6 +3,7 @@
 (use-package evil
   :init
   (setq evil-disable-insert-state-bindings t)
+  (setq evil-motion-state-modes nil)
 
   (use-package evil-surround
     :config

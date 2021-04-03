@@ -1,6 +1,5 @@
 ;;; Mon Feb 22 00:33:34 UTC 2021 ;;; 
 
-;; TODO fix SPC for dired, apropos
 (define-key evil-normal-state-map (kbd "SPC") 'evil-window-map)
 (define-key evil-window-map (kbd "w") 'evil-write)
 (define-key evil-window-map (kbd "Q") 'evil-quit-all)
