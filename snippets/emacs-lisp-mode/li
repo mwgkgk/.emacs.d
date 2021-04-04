@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: li
+# key: li
+# --
+\#'(lambda ($1)
+	   (interactive)
+	   ${2:nil})
