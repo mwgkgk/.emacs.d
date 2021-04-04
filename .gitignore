@@ -12,3 +12,6 @@
 
 /server/
 /transient/
+
+/.emacs.desktop
+/.emacs.desktop.lock

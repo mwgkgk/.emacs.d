@@ -24,3 +24,9 @@
 ;; Winner mode
 (progn
   (winner-mode 1))
+
+;;; ======== ;;;
+;;; Sessions ;;;
+;;; ======== ;;;
+
+(desktop-save-mode 1)

@@ -1,11 +1,10 @@
 ;;; Fri Apr  2 10:55:32 UTC 2021 ;;; 
 
-;; -----
-;; Evil
-;; -----
+;; ----
+;; Vim
+;; ----
 
-;;; Evil goes before the others because of define-key.
-(load "~/.emacs.d/layer/evil.el")
+(load "~/.emacs.d/layer/vim.el")
 
 ;; ----
 ;; BCI
@@ -20,6 +19,12 @@
 ;; ----
 
 (load "~/.emacs.d/layer/git.el")
+
+;; --------
+;; Projects
+;; --------
+
+(load "~/.emacs.d/layer/projectile.el")
 
 ;; -------
 ;; S-exps

@@ -31,6 +31,12 @@
 
 (load "~/.emacs.d/layer/packages.el")
 
+;;; ==== ;;;
+;;; Keys ;;;
+;;; ==== ;;;
+
+(load "~/.emacs.d/keys/top.el")
+
 ;;; ====== ;;;
 ;;; Server ;;;
 ;;; ====== ;;;

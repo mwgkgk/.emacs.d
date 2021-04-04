@@ -1,3 +1,3 @@
-(load "~/.emacs.d/conf/git-gutter/setup.el")
+(load "~/.emacs.d/lib/git-gutter/setup.el")
 
 (use-package magit)
