@@ -33,6 +33,13 @@
 ;;; Keys
 ;;; -----
 
+;;; Sun Apr  4 05:58:15 UTC 2021 ;;; 
+
+(define-key evil-normal-state-map (kbd ";cvk")
+  (lambda ()
+    (interactive)
+    (find-file "~/.emacs.d/layer/colors.el")))
+
 ;;; Mon Feb 22 00:35:19 UTC 2021 ;;; 
 
 (define-key evil-normal-state-map (kbd ";ckt")
