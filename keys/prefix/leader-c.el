@@ -40,7 +40,7 @@
 (define-key evil-normal-state-map (kbd ";cvk")
   #'(lambda ()
       (interactive)
-      (find-file "~/.emacs.d/layer/colors.el")))
+      (find-file "~/.emacs.d/keys/top.el")))
 
 ;;; Mon Feb 22 00:35:19 UTC 2021 ;;; 
 
