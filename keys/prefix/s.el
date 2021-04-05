@@ -5,13 +5,13 @@
 
 ;;; Sat Apr  3 23:51:33 UTC 2021 ;;;
 
-(define-key evil-normal-state-map (kbd "s SPC") 'switch-to-buffer)
+(define-key evil-normal-state-map (kbd "s SPC") #'switch-to-buffer)
 
 ;;; Fri Mar 19 04:44:25 UTC 2021 ;;; 
 
 ;;; Goes to project root by default
-(define-key evil-normal-state-map (kbd "ss")
-  #'(lambda () (interactive) (fzf/start projectile-project-root)))
+;;; TODO this one is currently requires for the fzf/start to load for others
+(define-key evil-normal-state-map (kbd "ss") #'fzf)
 
 ;;; Sun Apr  4 00:28:08 UTC 2021 ;;;
 
