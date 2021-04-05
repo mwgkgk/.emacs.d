@@ -49,3 +49,12 @@
 
 (define-key evil-normal-state-map (kbd "sol") #'load-theme)
 
+;;; -----
+;;; Home
+;;; -----
+
+;;; Mon Apr  5 02:26:47 UTC 2021 ;;; 
+
+(define-key evil-normal-state-map (kbd "sx")
+  #'(lambda () (interactive) (fzf/start "~/org/")))
+
