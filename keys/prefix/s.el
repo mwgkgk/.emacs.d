@@ -1,3 +1,7 @@
+;;; Tue Apr  6 08:39:14 UTC 2021 ;;; 
+
+(autoload-do-load #'fzf/start)
+
 ;;; Sun Apr  4 00:24:39 UTC 2021 ;;;
 
 ;;; Don't "Key sequence starts with non-prefix key" me:
