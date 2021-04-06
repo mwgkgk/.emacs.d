@@ -1,6 +1,8 @@
 ;;; Tue Apr  6 08:39:14 UTC 2021 ;;; 
 
-(autoload-do-load #'fzf/start)
+;;; Is required for the fzf/start binds:
+;;; TODO This doesn't actually work
+(autoload-do-load #'fzf)
 
 ;;; Sun Apr  4 00:24:39 UTC 2021 ;;;
 
