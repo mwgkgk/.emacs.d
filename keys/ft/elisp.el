@@ -1,6 +1,7 @@
+
 ;;; Sun Apr  4 03:23:37 UTC 2021 ;;; 
 
-(load "~/.emacs.d/lib/evil/api/i/comfy-eval.el")
+(load "~/.emacs.d/lib/evil/api/comfy-eval.el")
 
 (add-hook 'emacs-lisp-mode-hook
     '(lambda ()
