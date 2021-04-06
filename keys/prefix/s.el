@@ -20,7 +20,7 @@
 
 ;;; Sun Apr  4 04:35:51 UTC 2021 ;;; 
 
-(define-key evil-normal-state-map (kbd "scc")
+(define-key evil-normal-state-map (kbd "sd")
   #'(lambda () (interactive) (fzf/start "~/.emacs.d/")))
 (define-key evil-normal-state-map (kbd "sck")
   #'(lambda () (interactive) (fzf/start "~/.emacs.d/keys/")))
