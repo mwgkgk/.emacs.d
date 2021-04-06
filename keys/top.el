@@ -22,6 +22,7 @@
 (load "~/.emacs.d/keys/prefix/leader.el")
 (load "~/.emacs.d/keys/prefix/leader-c.el")
 (load "~/.emacs.d/keys/prefix/s.el")
+(load "~/.emacs.d/keys/prefix/c-h.el")
 
 ;;; ============= ;;;
 ;;; Filetype keys ;;;
