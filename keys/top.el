@@ -30,4 +30,5 @@
 ;;; Sun Apr  4 02:01:35 UTC 2021 ;;;
 
 (load "~/.emacs.d/keys/ft/elisp.el")
+(load "~/.emacs.d/keys/ft/info.el")
 
