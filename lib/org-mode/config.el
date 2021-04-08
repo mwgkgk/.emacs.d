@@ -2,3 +2,5 @@
 
 (setq org-special-ctrl-a/e t)
 
+(setq org-log-done 'time)
+
