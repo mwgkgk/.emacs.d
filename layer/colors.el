@@ -24,4 +24,4 @@
 (use-package goose-theme)
 (use-package hydandata-light-theme)
 
-(load-theme 'hydandata-light t)
+(load-theme 'django t)
