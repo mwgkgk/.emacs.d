@@ -17,3 +17,5 @@
 /.emacs.desktop.lock
 
 /elpa/
+
+/eshell/history
