@@ -2,11 +2,13 @@
 
 (use-package sly
   :init
-  (setq inferior-lisp-program "/usr/bin/sbcl")
-
+  (if (eq system-type 'windows-nt)
+      (setq inferior-lisp-program "sbcl.exe")
+    (setq inferior-lisp-program "/usr/bin/sbcl"))
+  
   :config
   (add-hook 'sly-mode-hook
-               (lambda ()
-                 (unless (sly-connected-p)
-                   (save-excursion (sly))))))
+	    (lambda ()
+	      (unless (sly-connected-p)
+		(save-excursion (sly))))))
 
