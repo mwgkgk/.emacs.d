@@ -29,4 +29,4 @@
 ;;; Sessions ;;;
 ;;; ======== ;;;
 
-(desktop-save-mode 1)
+(desktop-save-mode 0)
