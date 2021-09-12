@@ -25,8 +25,6 @@
 (progn
   (winner-mode 1))
 
-(define-key evil-normal-state-map (kbd "C-c k") 'kill-this-buffer)
-
 ;;; ======== ;;;
 ;;; Sessions ;;;
 ;;; ======== ;;;
