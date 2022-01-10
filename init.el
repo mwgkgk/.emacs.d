@@ -43,3 +43,9 @@
 
 (server-start)
 
+
+;;; Mon Jan 10 11:57:01 UTC 2022 ;;; 
+
+;;; New shit / windowing
+
+;;; nnoremap <Space><C-o> <Space>`
