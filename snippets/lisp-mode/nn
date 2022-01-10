@@ -1,0 +1,4 @@
+# key: f
+# name: f
+# --
+(define-key evil-normal-state-map (kbd "${1:q}") '${2:evil-jump-item})
