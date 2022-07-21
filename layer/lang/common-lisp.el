@@ -1,3 +1,8 @@
+;;; Thu Jul 21 14:31:06 UTC 2022 ;;; 
+
+(setq auto-mode-alist 
+      (cons '("\\.cl$" . lisp-mode) auto-mode-alist))
+
 ;;; Fri Apr  2 10:51:56 UTC 2021 ;;; 
 
 (use-package sly
