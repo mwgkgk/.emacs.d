@@ -42,6 +42,7 @@
 (load "~/.emacs.d/layer/lang/factor.el")
 (load "~/.emacs.d/layer/lang/forth.el")
 (load "~/.emacs.d/layer/lang/lua.el")
+(load "~/.emacs.d/layer/lang/markdown.el")
 
 ;; -------
 ;; Colors
