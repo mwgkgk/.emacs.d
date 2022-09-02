@@ -6,6 +6,12 @@
 
 (load "~/.emacs.d/layer/vim.el")
 
+;; -------
+;; Frames
+;; -------
+
+(load "~/.emacs.d/layer/frames.el")
+
 ;; ----
 ;; BCI
 ;; ----
