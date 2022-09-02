@@ -18,6 +18,9 @@
 ;;; Dark
 (use-package soothe-theme)
 (use-package django-theme)
+(use-package exotica-theme)
+(use-package dracula-theme)
+(use-package underwater-theme)
 
 ;;; Light
 (use-package autumn-light-theme)
