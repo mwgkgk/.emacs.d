@@ -30,3 +30,12 @@
 ;;; ======== ;;;
 
 (desktop-save-mode 0)
+
+;;; ========== ;;;
+;;; Whitespace ;;;
+;;; ========== ;;;
+
+(global-whitespace-mode)
+
+(setq whitespace-display-mappings
+      '((newline-mark 10 [172 10])))
