@@ -15,4 +15,5 @@
   (evil-mode 1)
 
   :config
-  (setq evil-vsplit-window-right t))
+  (setq evil-vsplit-window-right t)
+  (evil-set-initial-state 'Info-mode 'insert))
