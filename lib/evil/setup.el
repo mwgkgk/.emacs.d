@@ -16,4 +16,7 @@
 
   :config
   (setq evil-vsplit-window-right t)
-  (evil-set-initial-state 'Info-mode 'insert))
+  (evil-set-initial-state 'Info-mode 'insert)
+  (evil-set-initial-state 'Debugger 'insert)
+  (evil-set-initial-state 'Help 'insert)
+  (evil-set-initial-state 'Special 'insert))
