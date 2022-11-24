@@ -2,7 +2,10 @@
 
 (use-package selectrum
              :init
-             (selectrum-mode 1))
+             (selectrum-mode 1)
+
+             :config
+             (push 'flex completion-styles))
 
 ;; (use-package orderless
 ;;   :ensure t
