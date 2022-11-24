@@ -34,10 +34,10 @@
   #'(lambda () (interactive) (fzf/start "~/.emacs.d/snippets/" #'fzf/action-find-file)))
 (define-key evil-normal-state-map (kbd "sca")
   #'(lambda () (interactive) (fzf/start "~/.emacs.d/api/" #'fzf/action-find-file)))
-(define-key evil-normal-state-map (kbd "scr")
-  #'(lambda () (interactive) (fzf/start "~/.emacs.d/layer/" #'fzf/action-find-file)))
 (define-key evil-normal-state-map (kbd "scl")
-  #'(lambda () (interactive) (fzf/start "~/.emacs.d/lib/" #'fzf/action-find-file)))
+  #'(lambda () (interactive) (fzf/start "~/.emacs.d/layer/" #'fzf/action-find-file)))
+(define-key evil-normal-state-map (kbd "scr")
+  #'(lambda () (interactive) (fzf/start "~/.emacs.d/rc/" #'fzf/action-find-file)))
 (define-key evil-normal-state-map (kbd "scp")
   #'(lambda () (interactive) (fzf/start "~/.emacs.d/straight/repos/" #'fzf/action-find-file)))
 
