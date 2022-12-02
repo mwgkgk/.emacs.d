@@ -18,8 +18,10 @@
 ;;; Windows ;;;
 ;;; ======= ;;;
 
-;; Always open new window
-(setq split-width-threshold 80)
+;; Split window "sensibly"
+(setq
+ split-width-threshold 80
+ split-height-threshold 20)
 
 ;; Winner mode
 (progn
