@@ -49,3 +49,9 @@
 ;;; New shit / windowing
 
 ;;; nnoremap <Space><C-o> <Space>`
+
+(use-package exwm)
+
+(require 'exwm)
+(require 'exwm-config)
+(exwm-config-example)
