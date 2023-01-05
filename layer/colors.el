@@ -10,6 +10,7 @@
      "9b39b25c3a23b1be6e99a3648b91ebaf2a7efdde236e3472aa95f1708ec61d4f"
      "efd849c804148b88536914ccdee08285fd7376e2e3334522c9afc00fd7e594da"
      "94146ac747852749e9444b184eb1e958f0e546072f66743929a05c3af62de473"
+     "6198e96f1fd7de3889a1b6ab8be1fc9b7c734cc9db0b0f16b635a2974601f977"
      default)))
 
 (custom-set-faces
@@ -31,4 +32,4 @@
 (use-package goose-theme)
 (use-package hydandata-light-theme)
 
-(load-theme 'soothe t)
+(load-theme 'exotica t)
