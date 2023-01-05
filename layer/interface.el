@@ -18,8 +18,8 @@
 ;;; ===== ;;;
 
 ;; (set-face-attribute 'default nil :font "Iosevka SS04" :height 75)
-;; (set-face-attribute 'default nil :font "Hack" :height 77)
-(set-face-attribute 'default nil :font "Anka/Coder" :height 109)
+(set-face-attribute 'default nil :font "Hack" :height 67)
+;; (set-face-attribute 'default nil :font "Anka/Coder" :height 109)
 ;; (set-face-attribute 'default nil :font "Anka/Coder Narrow" :height 95)
 ;; (set-face-attribute 'default nil :font "scientifica")
 ;; (set-face-attribute 'default nil :font "Monospace" :height 150)
