@@ -22,8 +22,8 @@
 ;; (set-face-attribute 'default nil :font "Hack" :height 109)
 ;; (set-face-attribute 'default nil :font "Hack" :height 119)
 ;; (set-face-attribute 'default nil :font "Anka/Coder" :height 109)
-;; (set-face-attribute 'default nil :font "Anka/Coder Narrow" :height 95)
-(set-face-attribute 'default nil :font "scientifica")
+(set-face-attribute 'default nil :font "Anka/Coder Narrow" :height 109)
+;; (set-face-attribute 'default nil :font "scientifica")
 ;; (set-face-attribute 'default nil :font "Monospace" :height 150)
 
 ;;; ======== ;;;
