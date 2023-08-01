@@ -1,0 +1,5 @@
+# key: cond
+# name: cond
+# --
+(cond
+  ($0))
